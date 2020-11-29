@@ -6,18 +6,39 @@ font-family: 'Nerko One', cursive;
 body{
     padding: 0rem;
     margin: 0rem;
+    overflow: hidden;
+    background: rgb(180, 211, 117);
 }
 
-header{
-    background-color: yellow;
-    
-    text-align: center;
-    
 
-    
-}
 h1{
     font-family: 'Nerko One', cursive;
     font-size: 1em;
+    text-align: center;
+    transform: translateX(-9px);
 
+}
+header{
+    background-color: yellow;
+}
+
+footer{
+    object-fit: cover;
+    background-color: yellow;
+    text-align: center;
+    
+}
+.container{
+    object-fit: contain;
+
+ 
+
+}
+.container img{
+    height: 350px;
+    width: 350px;
+}
+
+footer .header{
+    text-decoration: underline;
 }
