@@ -32,8 +32,9 @@ header{
 }
 .container img{
     height: 350px;
-    width: 350px;
+    width: 325px;
     padding: 0rem,2rem;
+    margin: 0rem,3rem;
 }
 
 
