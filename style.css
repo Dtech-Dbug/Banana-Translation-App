@@ -22,12 +22,8 @@ header{
     background-color: yellow;
 }
 
-footer{
-    object-fit: cover;
-    background-color: yellow;
-    text-align: center;
-    
-}
+
+
 .container{
     object-fit: contain;
 
@@ -39,9 +35,7 @@ footer{
     width: 350px;
 }
 
-footer .header{
-    text-decoration: underline;
-}
+
 
 .box{
    text-align: center;
@@ -51,3 +45,31 @@ footer .header{
 #btn-translate{
     transform: translateX(-3rem);
 }
+
+.about{
+    text-align: center;
+    background-color:rgb(249, 252, 18); }
+
+    .about h2,i{
+        text-decoration: underline;
+    }
+
+    footer{
+        text-align: center;
+        background: linear-gradient(to right,rgb(20, 184, 199),rgb(24, 132, 204));
+    }
+
+    footer ul{
+        list-style-type: none;
+        transform: translateX(-1.9rem);
+    }
+    footer ul li a{
+        color: white;
+    }
+
+    footer .footer-header{
+        color: white;
+    }
+    footer .area{
+        color: white;
+    }
