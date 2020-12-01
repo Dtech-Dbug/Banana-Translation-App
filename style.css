@@ -42,3 +42,12 @@ footer{
 footer .header{
     text-decoration: underline;
 }
+
+.box{
+   text-align: center;
+    background: linear-gradient(to right,rgb(131, 214, 30),rgb(52, 217, 20))
+}
+
+#btn-translate{
+    transform: translateX(-3rem);
+}
